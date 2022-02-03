@@ -12,5 +12,5 @@ int max4(int a, int b, int c, int d)
 
 int main(void)
 {
-    printf("max4(%d %d %d %d) = %d", 1, 2, 3, 4, max4(1, 2, 3, 4));
+    printf("max4(%d %d %d %d) = %d", 3, 2, 3, 4, max4(1, 2, 3, 4));
 }
