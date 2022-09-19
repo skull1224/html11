@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title> 
+</head>
+<body>
+    <script type="text/javascript">
+        function name()
+        {
+            return ("class");
+        }
+        alert(name());
+        name2 = function()
+        {
+            return ("glass");
+        }
+        alert(name2());
+    </script>
+</body>
+</html>
