@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title> 
+</head>
+<body>
+    <ul>
+        <li>egoing</li>
+        <li>k1114</li>
+        <li>asdassd</li>
+    </ul>
+    <script>
+        var grade = new Object;
+        var grade = {'egoing':10,'k1114':5,'asdassd':80};
+        for(key in grade){
+            document.write("<li>key: "+key+" value :"+grade[key]+"</li>" );
+            //배열에 안에 있는것을 가져올때는 for in문 을 사용 앞쪽은 키값 뒤쪽은 객체의 이름
+        }
+            for(key in grade)
+        {
+            console.log(grade[key]);
+        }
+        var garden ={
+            'list' : {'egoing':10,'k1114':5,'asdassd':80},
+            'show' : function(){
+                console.log(name, this.list[name]);
+                }
+        }
+        garden.show();
+
+    </script>
+</body>
+</html>
